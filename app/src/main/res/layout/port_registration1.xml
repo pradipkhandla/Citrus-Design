@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar_other" />
+
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="@dimen/_13sdp"
+                android:layout_marginRight="@dimen/_13sdp">
+
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_108sdp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="@dimen/_23sdp"
+                        android:background="@drawable/round_bacround"/>
+
+
+                    <ImageView
+                        android:layout_width="@dimen/_214sdp"
+                        android:layout_height="@dimen/_127sdp"
+                        android:src="@drawable/ship"
+                        android:layout_gravity="center_horizontal"/>
+
+                </FrameLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="@dimen/_24sdp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Company Type"
+                        android:fontFamily="@font/roboto"
+                        android:textSize="@dimen/_13ssp"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Select your company type"
+                        android:layout_marginTop="@dimen/_8sdp"
+                        android:fontFamily="@font/roboto"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_12ssp"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginTop="@dimen/_15sdp">
+
+                    <CheckBox
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_15sdp"
+                        android:text="Sole Proprietor Firm"
+                        android:textSize="@dimen/_13ssp"
+                        android:textColor="@color/black"
+                        android:checked="true"
+                        app:buttonTint="@color/normal_green"
+                        android:paddingLeft="@dimen/_8sdp"/>
+
+                    <CheckBox
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_15sdp"
+                        android:text="Partnership Firm"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_13ssp"
+                        app:buttonTint="@color/normal_green"
+                        android:paddingLeft="@dimen/_8sdp"
+                        android:layout_marginTop="@dimen/_10sdp"/>
+                    <CheckBox
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_15sdp"
+                        android:text="LLP, PVT LTD &amp; LTD Firm"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_13ssp"
+                        app:buttonTint="@color/normal_green"
+                        android:paddingLeft="@dimen/_8sdp"
+                        android:layout_marginTop="@dimen/_10sdp"/>
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="@dimen/_24sdp">
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Where do you want to register?"
+                        android:fontFamily="@font/roboto"
+                        android:textSize="@dimen/_13ssp"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="You can register on multiple ports at the same time."
+                        android:layout_marginTop="@dimen/_12sdp"
+                        android:fontFamily="@font/roboto"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_11ssp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="@dimen/_15sdp">
+
+                    <LinearLayout
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Nhava Sheva"
+                            android:fontFamily="@font/roboto"
+                            android:textSize="@dimen/_13ssp"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Mumbai"
+                            android:fontFamily="@font/roboto"
+                            android:textSize="@dimen/_9ssp"
+                            android:textColor="@color/normal_text"
+                            android:textStyle="bold"
+                            android:layout_marginTop="@dimen/_2sdp"/>
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/_10ssp"
+                        android:text="Remove"
+                        android:paddingTop="@dimen/_6sdp"
+                        android:paddingBottom="@dimen/_6sdp"
+                        android:paddingLeft="@dimen/_15sdp"
+                        android:paddingRight="@dimen/_15sdp"
+                        android:textColor="@color/cancel"
+                        android:fontFamily="@font/roboto"
+                        android:background="@drawable/round_red_border"
+                        android:layout_gravity="center_vertical"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="@dimen/_10sdp">
+
+                    <LinearLayout
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Mundra"
+                            android:fontFamily="@font/roboto"
+                            android:textSize="@dimen/_13ssp"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Kutch"
+                            android:fontFamily="@font/roboto"
+                            android:textSize="@dimen/_9ssp"
+                            android:textColor="@color/normal_text"
+                            android:textStyle="bold"
+                            android:layout_marginTop="@dimen/_2sdp"/>
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/_10ssp"
+                        android:text="Add"
+                        android:paddingTop="@dimen/_7sdp"
+                        android:paddingBottom="@dimen/_7sdp"
+                        android:paddingLeft="@dimen/_24sdp"
+                        android:paddingRight="@dimen/_24sdp"
+                        android:textColor="@color/new_green"
+                        android:gravity="center_horizontal"
+                        android:fontFamily="@font/roboto"
+                        android:background="@drawable/round_green_board"
+                        />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="@dimen/_10sdp">
+
+                    <LinearLayout
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="ICD- Janori"
+                            android:fontFamily="@font/roboto"
+                            android:textSize="@dimen/_13ssp"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Nashik"
+                            android:fontFamily="@font/roboto"
+                            android:textSize="@dimen/_9ssp"
+                            android:textColor="@color/normal_text"
+                            android:textStyle="bold"
+                            android:layout_marginTop="@dimen/_2sdp"/>
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/_10ssp"
+                        android:text="Add"
+                        android:paddingTop="@dimen/_7sdp"
+                        android:paddingBottom="@dimen/_7sdp"
+                        android:paddingLeft="@dimen/_24sdp"
+                        android:paddingRight="@dimen/_24sdp"
+                        android:textColor="@color/new_green"
+                        android:gravity="center_horizontal"
+                        android:fontFamily="@font/roboto"
+                        android:background="@drawable/round_green_board"
+                        />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="@dimen/_10sdp">
+
+                    <LinearLayout
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="ICD- Dighi"
+                            android:fontFamily="@font/roboto"
+                            android:textSize="@dimen/_13ssp"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Pune"
+                            android:fontFamily="@font/roboto"
+                            android:textSize="@dimen/_9ssp"
+                            android:textColor="@color/normal_text"
+                            android:textStyle="bold"
+                            android:layout_marginTop="@dimen/_2sdp"/>
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/_10ssp"
+                        android:text="Add"
+                        android:paddingTop="@dimen/_7sdp"
+                        android:paddingBottom="@dimen/_7sdp"
+                        android:paddingLeft="@dimen/_24sdp"
+                        android:paddingRight="@dimen/_24sdp"
+                        android:textColor="@color/new_green"
+                        android:gravity="center_horizontal"
+                        android:fontFamily="@font/roboto"
+                        android:background="@drawable/round_green_board"
+                        />
+
+                </LinearLayout>
+
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_68sdp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="@dimen/_23sdp"
+                    android:background="@drawable/round_bacround">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginTop="@dimen/_11sdp"
+                        android:layout_marginStart="@dimen/_13sdp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Port you are looking is not listed?"
+                        android:fontFamily="@font/roboto"
+                        android:textSize="@dimen/_11ssp"
+                        android:textColor="@color/black" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/_10ssp"
+                            android:text="CALL"
+                            android:paddingTop="@dimen/_7sdp"
+                            android:paddingBottom="@dimen/_7sdp"
+                            android:paddingLeft="@dimen/_22sdp"
+                            android:paddingRight="@dimen/_22sdp"
+                            android:textColor="@color/new_green"
+                            android:gravity="center_horizontal"
+                            android:fontFamily="@font/roboto"
+                            android:background="@drawable/round_green_board"
+                            android:layout_marginTop="@dimen/_10sdp"/>
+
+                    </LinearLayout>
+                    <ImageView
+                        android:layout_width="@dimen/_68sdp"
+                        android:layout_height="@dimen/_68sdp"
+                        android:layout_gravity="end"
+                        android:src="@drawable/portlook"/>
+
+                </FrameLayout>
+
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_38sdp">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="@dimen/_275sdp"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="@dimen/_5sdp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/round_yellow_background"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Port you are looking is not listed?"
+                            android:fontFamily="@font/roboto"
+                            android:textSize="@dimen/_13ssp"
+                            android:textColor="@color/black"
+                            android:layout_marginTop="@dimen/_21sdp"
+                            android:layout_marginStart="@dimen/_12sdp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Port KYC"
+                            android:fontFamily="@font/roboto"
+                            android:textSize="@dimen/_12ssp"
+                            android:textColor="@color/new_green"
+                            android:layout_marginTop="@dimen/_12sdp"
+                            android:layout_marginStart="@dimen/_12sdp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/port_reg_kyc_txt"
+                            android:textSize="@dimen/_11ssp"
+                            android:layout_marginStart="@dimen/_12sdp"
+                            android:layout_marginTop="@dimen/_10sdp"
+                            android:fontFamily="@font/roboto"/>
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:layout_marginStart="@dimen/_12sdp"
+                            android:layout_marginEnd="@dimen/_12sdp"
+                            android:layout_marginBottom="@dimen/_10sdp">
+
+                            <TextView
+                                android:layout_weight="1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="@dimen/_10ssp"
+                                android:text="ADD"
+                                android:paddingTop="@dimen/_8sdp"
+                                android:paddingBottom="@dimen/_8sdp"
+                                android:paddingLeft="@dimen/_49sdp"
+                                android:paddingRight="@dimen/_49sdp"
+                                android:textColor="@color/new_green"
+                                android:gravity="center_horizontal"
+                                android:fontFamily="@font/roboto"
+                                android:background="@drawable/round_green_board"
+                                android:layout_marginTop="@dimen/_12sdp"
+                                android:layout_marginEnd="@dimen/_6sdp"/>
+
+                            <TextView
+                                android:layout_weight="1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="@dimen/_10ssp"
+                                android:text="I’ll Do it later"
+                                android:paddingTop="@dimen/_8sdp"
+                                android:paddingBottom="@dimen/_8sdp"
+                                android:paddingLeft="@dimen/_31sdp"
+                                android:paddingRight="@dimen/_31sdp"
+                                android:textColor="@color/normal_gray"
+                                android:gravity="center_horizontal"
+                                android:fontFamily="@font/roboto"
+                                android:background="@drawable/round_normal_gray_board"
+                                android:layout_marginTop="@dimen/_12sdp"
+                                android:layout_marginStart="@dimen/_6sdp"/>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/_11ssp"
+                        android:text="Recommended"
+                        android:paddingTop="@dimen/_5sdp"
+                        android:paddingBottom="@dimen/_5sdp"
+                        android:paddingLeft="@dimen/_15sdp"
+                        android:paddingRight="@dimen/_15sdp"
+                        android:textColor="@color/white"
+                        android:gravity="center_horizontal"
+                        android:fontFamily="@font/roboto"
+                        android:background="@drawable/round_red_background"
+                        android:layout_marginStart="@dimen/_8sdp" />
+
+                </FrameLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/_16sdp"
+                        android:text="Bill Details"
+                        android:fontFamily="@font/roboto"
+                        android:textSize="@dimen/_13ssp"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:layout_marginTop="@dimen/_23sdp" />
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        tools:itemCount="1"
+                        tools:listitem="@layout/bill_detail_item"
+                        android:layout_marginTop="@dimen/_14sdp"/>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="@dimen/_19sdp"
+                        android:background="#CCADADAD" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="@dimen/_14sdp">
+
+                        <TextView
+                            android:layout_weight="1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Payable amount"
+                            android:textColor="@color/new_green"
+                            android:textSize="@dimen/_12sdp"
+                            android:fontFamily="@font/roboto"
+                            android:textStyle="bold"/>
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="₹1500"
+                            android:textColor="@color/new_green"
+                            android:textSize="@dimen/_12sdp"
+                            android:fontFamily="@font/roboto"
+                            android:textStyle="bold"/>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+
+
+            </LinearLayout>
+        </ScrollView>
+            </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="@dimen/_275sdp"
+        android:layout_height="@dimen/_38sdp"
+        android:background="@drawable/round_button"
+        android:text="PAY ₹12980"
+        android:textColor="@color/white"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/_7sdp"/>
+</LinearLayout>

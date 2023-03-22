@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">Citrus_Design</string>
+    <string name="port_kyc_title">Port KYC</string>
+    <string name="port_kyc_txt">If you are exporting from a major
+port for the first time, it is necessary
+to undergo Port KYC...</string>
+    <string name="price">₹4500*</string>
+    <string name="price_view">₹5000*</string>
+    <string name="view_detail">View Details</string>
+
+    <string name="marin_insura_title">Marine Insurance</string>
+    <string name="marin_insura_txt">Marine insurance provides
+coverage for ships, cargo,
+and other marine-related... </string>
+
+    <string name="temp_monit_title">Temperature Monitoring</string>
+    <string name="temp_monit_txt">Device we provide is built with
+multiple sensors to make every
+blind spot and manual inter...</string>
+
+
+    <string name="temp_loger_title">Temperature Logger</string>
+    <string name="temp_loger_txt">It is a mandatory process,
+if you are first time exporting
+from a major port</string>
+
+
+    <string name="container_track_title">Container Tracking</string>
+    <string name="container_track_txt">It is a mandatory process,
+if you are first time exporting
+from a major port</string>
+
+
+    <string name="document_req">Documents required for port registration varies
+with type of company</string>
+
+    <string name="you_can_select">You cans select multiple ports mncdbjh bcj
+n mcxmxj</string>
+
+    <string name="txt">If you are exporting from a major\n port for the first time, it is necessary\n to undergo Port KYC, which is a\n compulsory procedure. Failure to\ncomply with this requirement mayb\nresult in difficulties with clearance.</string>
+
+    <string name="dura">Duration</string>
+    <string name="pin_txt">Once you opt for this service, you will receive
+ mail from us. You are suppose to reply it with the
+Invoice. Final Proposal will be shared over mail
+after you provide us with the invoice.</string>
+
+
+    <string name="port_reg_kyc_txt">If you are exporting from a major port for the
+first time, it is necessary to undergo Port KYC,
+which is a compulsory procedure. Failure to
+comply with this requirement may result in
+difficulties with clearance.</string>
+
+    <string name="cargo_claim_txt">If you\'re unable to claim your insurance for your perishable shipments, our legal team is here to \nhelp ensure that you receive the coverage you \ndeserve</string>
+
+
+    <string name="reco_txt">Recoupex GmbH is an on-demand, global cargo\ntransportation lawyers\' hub with HQ in Hamburg.\nThe company helps fresh produce exporters and \nfreight forwarders to obtain compensation from\nthe liabe carrier when cargo is lost or damaged in\ntransit under no win - no pay structure.</string>
+
+
+    <string name="consultation_txt">You can schedule a free consultation to check
+if you are qualify for a claim. After you decide to
+proceed with legal assistance, you will be required
+to pay a service fee equal to 20% of the settlement
+amount once your claim has been settled.</string>
+
+    <string name="contact"><u>8945236547</u></string>
+    <string name="email"><u>se.bom@citrusfreight.com</u></string>
+    <string name="add_on_services">Add On Services</string>
+    <string name="add">Add</string>
+    <string name="remove">Remove</string>
+
+</resources>
